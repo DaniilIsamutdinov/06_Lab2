@@ -1,0 +1,32 @@
+db.workers.insertMany([
+    {
+        "project": "Project A",
+        "title": "Task 1",
+        "description": "Description of Task 1",
+        "workers": ["Олександр Андрійський"],
+        "manager": "Юлія Іванова",
+        "responsible": "Юлія Іванова",
+        "start_time": 1624356000, 
+        "end_time": 1624442400,
+    },
+    {
+        "project": "Project B",
+        "title": "Task 2",
+        "description": "Description of Task 2",
+        "workers": ["Андрій Франко", "Софія Шевченко"],
+        "manager": "Петро Петров",
+        "responsible": "Петро Петров",
+        "start_time": 1624462800,
+        "end_time": 1624549200,
+    },
+    {
+        "project": "Project B",
+        "title": "Task 3",
+        "description": "Description of Task 3",
+        "workers": ["Андрій Франко", "Олександр Андрійський"],
+        "manager": "Петро Петров",
+        "responsible": "Петро Петров",
+        "start_time": 1624635600, 
+        "end_time": 1624722000,
+    }
+])
